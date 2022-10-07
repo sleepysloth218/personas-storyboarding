@@ -112,3 +112,17 @@ img.full-width {
 .column > h3 {
   align-self: center;
 }
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.grid-item {
+  width: 45%;
+  margin: 10px 0;
+}
